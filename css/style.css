@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 20px;
+	font-family: 'Lalezar', cursive;
+	background-color: #ffec8b;
+	color:dodgerblue;
+}
+p{
+	color: RosyBrown;
+	font-size: 32px;
+	font-family: 'Lalezar', cursive;
+	margin: 28px 0;
+}
+span{
+	background-color: yellow;
+	font-family: 'English Rose';
+}
+h1 {
+	color: dodgerblue;
+	font-size: 60px;
+	font-family: 'Amatic SC', cursive;
+}
+div{
+	width: 80%;
+	margin: auto;
+	background-color: gold;
+	padding: 50px;
+	box-shadow: 0 0 40px 10px rgba(0,0,0,0.2);
+}
+@font-face {
+	font-family: 'English Rose';
+	src: url('../fonts/19268.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+a {
+	text-decoration: none;
+	color: tomato;
+	font-size: 32px;
+	display: block;
+	margin: 15px 0;
+	border-bottom: 1px solid transparent
+a:hover{
+	border-bottom-color:tomato;
+}	
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
